@@ -116,15 +116,15 @@ bool qdone[9] = {0};
 srand(time(NULL));
 
       FILE *questionfile = fopen("txtfiles/questions.txt", "r");
-        if(questionfile == NULL){printf("questions.txt gone wrong");return 1;}
+        if(questionfile == NULL){printf("questions.txt gone wrong"); getch();return 1;}
         totalquestions = 0;
         while(fgets(question, sizeof(question), questionfile)){ totalquestions++;}
 
       FILE *answerfile = fopen("txtfiles/answers.txt", "r");
-        if(answerfile == NULL){printf("answers.txt gone wrong");return 1;}
+        if(answerfile == NULL){printf("answers.txt gone wrong");  getch(); return 1;}
 
       FILE *userrecords = fopen("txtfiles/userrecords.txt", "r+");
-        if(userrecords == NULL){printf("userrecords.txt gone wrong");return 1;}
+        if(userrecords == NULL){printf("userrecords.txt gone wrong"); getch();return 1;}
         
             rewind(questionfile);
             rewind(answerfile);
