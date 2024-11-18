@@ -1,0 +1,14 @@
+EASY :
+a
+b
+c
+
+Average :
+a
+c
+d
+
+Difficult :
+w
+ehehehe
+r
