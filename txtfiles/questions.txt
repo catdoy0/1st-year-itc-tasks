@@ -5,10 +5,10 @@ What is 1 + 3?|: |   a. 2 |   b. 3 |   c. 4 |   d. 5
 
 Average :
 Computer device usually placed on the desk or near it.|:   |   a. Desktop Computer |   b. DeskBottom Computer |   c. you dont know?  |   d. This is literally a bonus
-Fastest and most expensive computer|(you'll never afford it ehehehe.):  |   a. ENIAC |   b. computer with DEPED's sticker |   c. Supercomputer |   d. human brain
+Fastest and most expensive computer|:  |   a. ENIAC |   b. computer with DEPED's sticker |   c. Supercomputer |   d. human brain
 Is known as the Father of Modern Computer.|: |   a. Blaise Pascal |   b. Thomas Edison |   c. Herman Hollerith |   d. Charles Babbage
 
 Difficult :
-w
-ehehehe
-r
+Convert from Binary to Octal (exact, no spaces):|Binary - 1011 1010 1101|Octal - 
+Convert from Octal to Binary (exact, no spaces ehehe):|Octal - 162551275 |Binary - 
+What would this code output?:||#include <stdio.h>| |int main() {|    int x = 5, y = 10;|    x = y++ + x++ - --y;|    printf("%d\n", x);|    return 0;|}|Output : 

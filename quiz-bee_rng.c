@@ -234,9 +234,7 @@ switch (choice){
                 
              txtfileextractor(random, question, sizeof(question), correctans, sizeof(correctans), questionfile, answerfile);
              txtformatter(question);
-             printf("\n\033[s"); 
 
-             printf("\033[u");
              fgets(useranswer, sizeof(useranswer), stdin);
              useranswer[strcspn(useranswer, "\n")] = 0;
 
